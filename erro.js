@@ -89,7 +89,7 @@ window.addEventListener('online', () => {
  setTimeout(() => {
   if (navigator.onLine === true) {
    // Confirma que está online novamente
-   .location.reload(); // Redireciona para a página inicial
+   window.location.href = 'index.html'; // Redireciona para a página inicial
   }
  }, 500);
 });
