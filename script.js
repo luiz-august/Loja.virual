@@ -207,7 +207,8 @@ function showProductDetails(productId) {
 
  modal.querySelector('.modal-body').innerHTML = modalContent;
  modal.style.display = 'block';
-  modalContent.style.overflowY = 'auto';
+   document.body.style.overflow = 'auto';
+ modal.style.overflowY = 'auto';
 }
 
 // Buy product
